@@ -1,0 +1,75 @@
+DFS ALGORITH PSEUDO KOD:
+	-	Markera alla noder som obesökta
+	-	Välj en startnod och låt den vara nuvarande nod N
+	-	Markera N som besökt.
+	-	Lägg till N till en stack S
+	-	Så länge som S inte är tom:
+		-	Hämta en nod från S och låt den vara N.
+		-	Om N har obesökta grannar:
+			-	Lägg till N till S.
+			-	Välj slumpmässigt en obesökt granne G.
+			-	Öppna kopplingen mellan N och G.
+			-	Markera G som besökt 
+			-	Lägg till G till S.
+	
+LABYRINTLÖSNING:
+	-	Markera alla noder som obesökta.
+	-	Välj en startnod och lägg den till en stack S.
+	- 	Så länge som S inte är tom:
+		-	Hämta en nod från s och den vara N.
+		-	Markera N som besökt.
+		-	Om N är slut noden:
+			-    Lägg till N till S. Du är klar.
+		-	Om N har obesökta grannar:
+			-    Lägg till N till S.
+			-    Lägg till en obesökt granne av N till S.	
+	-	Om S är tom så finns ingen lösning.
+
+
+
+
+FIXA NU:
+	-	fixa hämta grannar();
+	-	start och slutnoder ska vara markerade med solved
+
+
+
+
+
+
+
+
+
+
+
+	/*int S, E;
+    node* N;
+    node* N2;
+  while(true){
+  S = rand() % (rows);
+  if(S % 2 == 0)
+    continue;
+  else{
+    node* N = getNode(0,S);
+    N->border = false;
+    N->visited = true;
+    break;
+  }
+ }
+ while(true){
+    E = rand() % (rows);
+  if(E % 2 == 0){
+    E = 0;
+    continue;
+  }
+  else{
+    N2 = getNode(cols-1,E);
+    N2->border = false;
+    N2->visited = true;
+    break;
+  }
+ }
+ std::pair<node* ,node*> StartEnd;
+ StartEnd.first = N;
+ StartEnd.second = N2;
+*/

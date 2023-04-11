@@ -1,0 +1,16 @@
+store:(PK::(store_ID), store_name, phone_number, city, zip, street, buildingnumber);
+
+employee:(PK::(employee_ID), FK::(manager_id, store_id), salary, fname,lname);
+
+movie:(PK::(movie_id), title, movie_length, category, rating);
+
+movie_stars:(PK::(star_name, movie_id (FK));
+movie_director(PK::(director_name, movie_id),FK::(movie_id));
+
+customer:(PK::(customer_id), (FK::store_id), starting_date, address, fname, lname);
+
+store_have_movies:(FK::(store_id, movie_id), quantity, price, shelfnumber);
+
+customer_can_reserve:(PK-FK::(customer_id, movie_id), latest_date);
+
+customer_can_rent:(PK-FK::(customer_id, movie_id), rental_date, return_date);

@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/tahakhudher/Documents/Uni/UNI.MIUN.ÅR1/objekt_baserad/labb2'
+g++ -c main.cpp linked_list.cpp
+c++    -c -o linked_list.o linked_list.cpp
+g++ -o main main.o linked_list.o 
+make: Leaving directory `/Users/tahakhudher/Documents/Uni/UNI.MIUN.ÅR1/objekt_baserad/labb2'
+ 

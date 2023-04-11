@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/tahakhudher/Documents/UNI.MIUN.ÅR1/objekt_baserad'
+make: Leaving directory `/Users/tahakhudher/Documents/UNI.MIUN.ÅR1/objekt_baserad'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

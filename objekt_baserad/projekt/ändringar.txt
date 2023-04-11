@@ -1,0 +1,13 @@
+-	ändrade villkoren för get neighbor
+-	ändrade retur typ för get neighbours till lista
+-	start och end characters
+-	fixat så att väggarna försvinner mellan 2 visited noder.
+-	fixat om DFS enligt pseudokoden i instruktionerna.
+-	skapat fixerade mått och fixerade start och slut punkter.
+- 	fixade en parametiserad konstruktor som tar in x som dimension och skapar en maze med dimensionerna
+	x * x.
+-	fullständig dfs som inte avbryts förrän S är tom.
+-	inkapsla funktionerna korrekt.
+-	endast konstruktorn , destruktorn, DFS och DrawMaze funktionen är publika. Resterande privat.
+- 	användaren får välja dimensionerna(endast 1 variabel, kvadratisk maze).
+-	build container funktionen blev förflyttad till konstruktorn(Parametriserad).

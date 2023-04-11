@@ -1,0 +1,5 @@
+CREATE DATABASE labb2;
+USE labb2;
+
+SET SQL_SAFE_UPDATES = 0; 
+

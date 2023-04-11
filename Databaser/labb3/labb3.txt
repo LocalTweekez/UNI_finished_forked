@@ -1,0 +1,13 @@
+1:a NF
+–Attributen innehåller atomära värden.
+-Inga upprepningar i innehåll eller struktur.
+2:a NF
+Icke-nyckel attributens fulla funktionella beroende av primärnyckeln.
+3:e NF
+Inga transitiva beroenden mellan icke-nyckel attribut. 
+A->B
+B->C
+därför: A->C
+
+
+(N till M får ej existera.)
