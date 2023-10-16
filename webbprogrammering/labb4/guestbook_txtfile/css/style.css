@@ -1,0 +1,63 @@
+.nav{
+    background-color: #371B58;
+    
+}   
+
+.form-container{
+    text-align: left;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    float: left;
+    border: solid;
+    border-color: #78569e;
+    margin-right: 30px;
+    
+}
+
+h1{
+    color:#78569e;
+}
+h3{
+    
+    color: #fff;
+}
+h4{
+   
+}
+
+p{
+    display: inline-block;
+    width: 50%;
+    color: white;
+}
+#content-box{
+    width: 50%;
+    height: 100px;
+}
+#post-button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#post-container{
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    border: solid;
+    border-color: #78569e;
+}
+.post-title{
+    width: 50%;
+    display: inline-block;
+}
+
+
+.btn{
+width: 60px;
+}

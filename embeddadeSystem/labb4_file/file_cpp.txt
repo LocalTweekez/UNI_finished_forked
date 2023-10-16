@@ -1,0 +1,61 @@
+#include "mbed.h"
+#include <iostream>
+#include <fstream>
+#include <stdio.h>
+
+I2C sensor(p28,p27);
+const int addr = 0x90;
+DigitalIn center(p14);
+FILE * fp;
+float values[5];
+LocalFileSystem local("local");
+char* file = "/local/tempFile.txt";
+char lastLine[256];
+
+void store_temp();
+
+void getTemp(){
+    char cmd[2];
+    for(int counter = 0; counter <5; counter++){
+        cmd[0] = 0x01;
+        cmd[1] = 0x00;
+        sensor.write(addr, cmd, 2);
+        wait(5);
+        cmd[0] = 0x00;
+        sensor.write(addr, cmd, 1);
+        sensor.read(addr, cmd, 2);
+        
+        float tmp = (float((cmd[0] << 8) | cmd[1]) / 256.0);
+        float twoDec = ceil(tmp * 100.0) / 100.0; // makes it to only 2 decimals
+        values[counter]= twoDec;
+        }
+    store_temp();
+}
+
+void store_temp(){
+    fp = fopen(file, "a"); //append
+    for(int counter= 0; counter<5; counter++){
+        fprintf(fp,"%2f " , values[counter]); 
+    }
+    fprintf(fp,"\n");
+    fclose(fp);
+    
+    fp = fopen(file, "r");
+    while(!feof(fp))
+    fgets(lastLine, 256, fp);
+    
+    printf("%s", lastLine);
+    fclose(fp);
+
+    }
+int main(){
+    
+    
+    
+    while (1){
+        
+        if(center==1){
+            getTemp();
+        }
+    }
+}

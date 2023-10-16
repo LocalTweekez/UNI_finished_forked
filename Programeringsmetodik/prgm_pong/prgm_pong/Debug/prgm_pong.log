@@ -1,0 +1,2 @@
+﻿  prgm_pong.cpp
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(10,10): fatal  error C1083: Cannot open include file: 'raylib.h': No such file or directory

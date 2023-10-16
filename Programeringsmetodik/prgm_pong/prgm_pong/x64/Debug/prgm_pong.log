@@ -1,0 +1,20 @@
+﻿  prgm_pong.cpp
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(44,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(45,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(65,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(197,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(214,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(215,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(220,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(221,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(231,96): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(233,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(234,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(257,1): warning C4305: '*=': truncation from 'double' to 'float'
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(264,1): warning C4305: '*=': truncation from 'double' to 'float'
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(318,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(318,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(319,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(320,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\prgm_pong\prgm_pong.cpp(320,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  prgm_pong.vcxproj -> C:\Users\tahak\source\repos\STKprojects\school\prgm_pong\x64\Debug\prgm_pong.exe

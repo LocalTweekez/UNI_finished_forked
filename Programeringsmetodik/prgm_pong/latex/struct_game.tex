@@ -1,0 +1,81 @@
+\hypertarget{struct_game}{}\doxysection{Game Struct Reference}
+\label{struct_game}\index{Game@{Game}}
+
+
+The entire game being an object struct.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_game_acf51844c4ac95957fd43c05e588c43a7}{Game}} (\mbox{\hyperlink{struct_paddle}{Paddle}} \+\_\+left\+Paddle, \mbox{\hyperlink{struct_paddle}{Paddle}} \+\_\+right\+Paddle, \mbox{\hyperlink{struct_ball}{Ball}} \+\_\+ball)
+\begin{DoxyCompactList}\small\item\em Constructor of the game with game property parameters. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_game_a463932fa7ca2f1ce243279bf2422fc48}\label{struct_game_a463932fa7ca2f1ce243279bf2422fc48}} 
+void {\bfseries menu} ()
+\begin{DoxyCompactList}\small\item\em The game menu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_game_a2198aa22a1c3a44fc111411a91ef002b}\label{struct_game_a2198aa22a1c3a44fc111411a91ef002b}} 
+void {\bfseries paddle\+Movement} ()
+\begin{DoxyCompactList}\small\item\em Function to move the paddles by pressing the up-\/down movement keys. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_game_aa155084cbb212880ee3c6ff3c78ac877}\label{struct_game_aa155084cbb212880ee3c6ff3c78ac877}} 
+void {\bfseries movement} ()
+\begin{DoxyCompactList}\small\item\em Enable change of time and space in paddle universe. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_game_ae53fceba1d9bb2aeeaffb4d636ba90e6}\label{struct_game_ae53fceba1d9bb2aeeaffb4d636ba90e6}} 
+void {\bfseries draw\+Game} ()
+\begin{DoxyCompactList}\small\item\em Draw the properties into the frame. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_game_a630b164dd571481d2827fb80f919e22a}\label{struct_game_a630b164dd571481d2827fb80f919e22a}} 
+void {\bfseries point\+System} ()
+\begin{DoxyCompactList}\small\item\em Create rules by calculating point system and adjust speed by amount of ball hits. If one of the players gains 10 points the match ends and the game be played again. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_game_aacf49ce9bcd1f03501c968e87aa32a7c}\label{struct_game_aacf49ce9bcd1f03501c968e87aa32a7c}} 
+void {\bfseries Draw\+Score\+Line} ()
+\begin{DoxyCompactList}\small\item\em Draw a scoreline and display the score. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_game_a5a294d2b92e9b1d13c01f0eee71a00a5}\label{struct_game_a5a294d2b92e9b1d13c01f0eee71a00a5}} 
+void {\bfseries check\+Collsion} ()
+\begin{DoxyCompactList}\small\item\em Check if the paddles got rect with a collision with the ball. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_game_a9a705e31bcc5c3d5778e3136ccc15489}\label{struct_game_a9a705e31bcc5c3d5778e3136ccc15489}} 
+void {\bfseries play\+Game} ()
+\begin{DoxyCompactList}\small\item\em Start the game. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_game_a531de893d094d797acee75a4a9ae6803}\label{struct_game_a531de893d094d797acee75a4a9ae6803}} 
+void {\bfseries Restart\+Game} ()
+\begin{DoxyCompactList}\small\item\em Restart the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{struct_game_a036bdd73cd5d83bd4913ebcbddf66901}\label{struct_game_a036bdd73cd5d83bd4913ebcbddf66901}} 
+\mbox{\hyperlink{struct_paddle}{Paddle}} {\bfseries right\+Paddle}
+\item 
+\mbox{\Hypertarget{struct_game_afaedc88ee821c0def1facc2eae4bc8c8}\label{struct_game_afaedc88ee821c0def1facc2eae4bc8c8}} 
+\mbox{\hyperlink{struct_paddle}{Paddle}} {\bfseries left\+Paddle}
+\item 
+\mbox{\Hypertarget{struct_game_a5672c77759345eaea4d9000cb51bb391}\label{struct_game_a5672c77759345eaea4d9000cb51bb391}} 
+\mbox{\hyperlink{struct_ball}{Ball}} {\bfseries ball}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The entire game being an object struct. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_game_acf51844c4ac95957fd43c05e588c43a7}\label{struct_game_acf51844c4ac95957fd43c05e588c43a7}} 
+\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily Game\+::\+Game (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_paddle}{Paddle}}}]{\+\_\+left\+Paddle,  }\item[{\mbox{\hyperlink{struct_paddle}{Paddle}}}]{\+\_\+right\+Paddle,  }\item[{\mbox{\hyperlink{struct_ball}{Ball}}}]{\+\_\+ball }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor of the game with game property parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+left\+Paddle} & \\
+\hline
+{\em \+\_\+right\+Paddle} & \\
+\hline
+{\em \+\_\+ball} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+prgm\+\_\+pong/prgm\+\_\+pong.\+cpp\end{DoxyCompactItemize}

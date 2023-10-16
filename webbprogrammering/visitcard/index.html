@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Business Card</title>
+    </head>
+    <body>
+
+        <div id="page1">
+            <h2>Order Business card here</h2>
+
+            <p class="txt">Company</p>
+            <input id ="company" type="text" class="inputs">
+
+            <p class="txt">Firstname</p> 
+            <input id ="firstname" type="text" class="inputs">
+            
+            <p class="txt">Surname</p> 
+            <input id ="surname" type="text" class="inputs" >
+               
+            <p class="txt">Title</p> 
+            <input id ="title" type="text" class="inputs" >
+
+            <p class="txt">Phone-number</p> 
+            <input id ="phone-number" type="tel" class="inputs" >
+
+            <p class="txt">E-mail</p> 
+            <input id ="e-mail" type="email" class="inputs" >
+            
+            <p class="txt">Card Color</p>
+            <input id ="card-color" type="color" class="inputs">
+
+            <p class="txt">Text color</p>
+            <input id ="text-color" type="color" class="inputs"><br>
+
+            
+            <label for="font-type">Font</label>
+            <select id ="font-type" class="inputs" name="font">
+              <option value="Verdana">Verdana</option>
+              <option value="Arial">Arial</option>
+              <option value="Tahoma">Tahoma</option>
+              <option value="Impact">Impact</option>
+            </select> <br>
+
+
+            <input type="button" id="print" value="print" class="btn">
+            <input type="button" id="reset" value="reset" class="btn">
+        </div>
+
+        <div id="page2">
+            <h2 class="output1" id="ownerName"></h2>
+            <p class="output1" id="companyNameAndTitle"></p>
+            <p class="output2" id="pnOutput"></p>
+            <p class="output2" id="emailOutput"></p>
+
+            <p id="area"></p>
+            <input type="button" id="change2" value="Back to first page">
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

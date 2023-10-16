@@ -1,0 +1,20 @@
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;   
+}
+p{
+    color: white;
+    font-size: 30;
+    width: 400px;
+    padding-right: 800px;
+}
+
+body {
+    background-image: url(bilder/python1.webp);
+background-size: 100%;
+}
+a {
+    color: yellowgreen;
+    
+}

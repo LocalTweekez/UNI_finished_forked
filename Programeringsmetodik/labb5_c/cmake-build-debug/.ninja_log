@@ -1,0 +1,9 @@
+# ninja log v5
+16	476	7139795230189247	CMakeFiles/labb5_c.dir/GreaterThan.cpp.obj	34414c26f100c6e1
+6	570	7139795231112316	CMakeFiles/labb5_c.dir/MyPrint.cpp.obj	e031e5183d3823ab
+9	577	7139795231182339	CMakeFiles/labb5_c.dir/laptop.cpp.obj	cddb1472ebca4070
+2	629	7139795781241286	CMakeFiles/labb5_c.dir/main.cpp.obj	37b336d6517a3931
+12	88	7139795226265496	CMakeFiles/labb5_c.dir/MyFunc.cpp.obj	4009a7bc1aee8d7d
+629	745	7139795782359702	labb5_c.exe	b1e35efb32ed1b1a
+19	512	7139795230544347	CMakeFiles/labb5_c.dir/MyBinOp.cpp.obj	5b676afd2f9fa9c8
+7	324	7139795778191285	CMakeFiles/labb5_c.dir/MyUnOp.cpp.obj	f068e9787ceb7f9e

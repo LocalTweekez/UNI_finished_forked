@@ -1,0 +1,3 @@
+C:/Users/tahak/source/repos/UNI/datastrukturer_algoritmer/labb4/cmake-build-debug/CMakeFiles/labb4.dir
+C:/Users/tahak/source/repos/UNI/datastrukturer_algoritmer/labb4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tahak/source/repos/UNI/datastrukturer_algoritmer/labb4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

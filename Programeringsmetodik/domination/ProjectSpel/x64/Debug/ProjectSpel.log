@@ -1,0 +1,6 @@
+﻿  ProjectSpel.cpp
+C:\Users\tahak\source\repos\UNI\Programeringsmetodik\domination\ProjectSpel\ProjectSpel.cpp(174,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\UNI\Programeringsmetodik\domination\ProjectSpel\ProjectSpel.cpp(174,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\tahak\source\repos\UNI\Programeringsmetodik\domination\ProjectSpel\ProjectSpel.cpp(175,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\tahak\source\repos\UNI\Programeringsmetodik\domination\ProjectSpel\ProjectSpel.cpp(175,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  ProjectSpel.vcxproj -> C:\Users\tahak\source\repos\UNI\Programeringsmetodik\domination\x64\Debug\ProjectSpel.exe

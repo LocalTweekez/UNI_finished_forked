@@ -1,0 +1,9 @@
+# ninja log v5
+3	367	7139862740969016	CMakeFiles/labb2_c.dir/rectangle.cpp.obj	9d768ef2e78566d2
+3	754	7139862631748654	CMakeFiles/labb2_c.dir/main.cpp.obj	c6463d66d8daf4e4
+16	485	7139862629038740	CMakeFiles/labb2_c.dir/roundedRect.cpp.obj	62113e8e83a4309e
+24	570	7139862629894030	CMakeFiles/labb2_c.dir/parallelepiped.cpp.obj	6cbcdc8a67464a13
+20	630	7139862630492917	CMakeFiles/labb2_c.dir/circle.cpp.obj	d4d4a52af432e782
+28	678	7139862630972848	CMakeFiles/labb2_c.dir/cylinder.cpp.obj	b5b9b5106e59b26f
+368	484	7139862742104722	labb2_c.exe	99db7a7c3c982f15
+11	652	7139862630702886	CMakeFiles/labb2_c.dir/shape.cpp.obj	83723f5213a1b694
